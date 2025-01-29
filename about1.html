@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal website</title>
+    <style> 
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            color: white;
+            padding: 14px;
+            font: 14px Verdana, sans-serif;
+            background-color: #0057B7;
+            display: flex;
+            align-items: center;
+            justify-content: center; /* Center content horizontally */
+            text-shadow: 2px 2px #000000;
+            width: 100%; /* Use 100% width */
+            height: 150px;
+        }
+        header img {
+            margin-right: 20px;
+            width: 50px; 
+            height: 50px;
+        }
+        header a {
+            color: white;
+            text-decoration: none;
+            background-color: #FFD700;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            display: block;
+            margin-top: 10px;
+        }
+        
+        header a:hover {
+            background-color: #FFC107;
+        }        
+        header h1 {
+            text-align: center;
+        }
+        #title{
+            font-size: 30px;
+            font-weight: bold;
+            width: 100%; /* Use 100% width */
+            text-align: left;
+            color: #FFFFFF;
+            background-color: #FFD700;
+            margin: 0;
+            padding: 7px;
+            border-bottom-right-radius: 15px;
+            text-shadow: 2px 2px #000000;
+        }
+        .three {
+            display: flex;
+        }
+        .content {
+            padding-right: 20px;
+        }
+        #list {
+            border: 1px solid #000;
+            padding: 10px;
+            width: 150px;
+            height: 200px;
+            background-color: rgb(247, 243, 243);
+        }
+        #content {
+            padding: 10px;
+        }
+        li {
+            text-decoration: none;
+            color: #000;
+            padding: 10px;
+            margin-left: 20px;
+        }
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="row">
+            <div>
+                <img src="https://th.bing.com/th/id/OIP.1jO5ReqPqOMvlImFFyezqwAAAA?w=165&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Profile Image">
+                <br>
+                <a href="index1.html" style="align-self: flex-end;">back to homepage</a>
+            </div>
+            <div class="title1" style="flex-grow: 1; text-align: center;">
+                <h1>About me</h1>
+            </div>
+        </div>
+    </header>
+    <div class="three">
+        <div>
+            <img src="https://th.bing.com/th/id/OIP.i7IPg8J4CfWw5-bVSlvt_wHaHa?rs=1&pid=ImgDetMain" height="200" width="200">
+        </div>
+        <div id="one">
+            <div id="title">who am i?</div>
+            <div id="content">
+                <p>My name is Shruthi Deepika. I am a web developer with a passion for creating beautiful and functional websites. I have experience in front-end development and am always looking to learn new technologies and improve my skills.</p>
+                <br>
+                <h3>Hobbies</h3>
+                <ul>
+                    <li><strong>Coding</strong></li>
+                    <li><strong>Reading</strong></li>
+                    <li><strong>Dancing</strong></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer style="text-align: center; padding-bottom: 1px; align-items:end; position: fixed; bottom: 0;height:40px;width: 100%;background-color:#0057B7">
+        <p>&copy; 2025 Shruthi Deepika. All rights reserved.</p>
+    </footer>
+</body>
+</html>
